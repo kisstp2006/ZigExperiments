@@ -1,0 +1,19 @@
+.{
+    .name = .basic2d_engine,
+    .version = "0.1.0",
+    .fingerprint = 0xf5611137e314d9cd,
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        .lua = .{
+            .url = "git+https://github.com/lua/lua.git?ref=v5.4.8#6e22fedb74cf0c9b6656e9fce8b7331db847c605",
+            .hash = "N-V-__8AAMubGQDGjqYOjiMukLr_HqNjQLPBnQBfI_jB0K-r",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "engine",
+        "examples",
+        "README.md",
+    },
+}
